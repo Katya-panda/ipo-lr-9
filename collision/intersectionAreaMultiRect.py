@@ -1,5 +1,5 @@
-from .isCorrectRect import isCorrectRect  # используем относительный импорт для получения функции isCorrectRect из текущего пакета
-from .intersectionAreaRect import intersectionAreaRect  # используем относительный импорт для получения функции intersectionAreaRect из текущего пакета
+from collision.isCorrectRect import isCorrectRect  # используем относительный импорт для получения функции isCorrectRect из текущего пакета
+from collision.intersectionAreaRect import intersectionAreaRect  # используем относительный импорт для получения функции intersectionAreaRect из текущего пакета
 def intersectionAreaMultiRect(rectangles):
     # Проверка корректности всех прямоугольников:
     # функция all() проверяет, что все прямоугольники корректны, вызывая функцию isCorrectRect для каждого прямоугольника в списке rectangles

@@ -1,4 +1,4 @@
-from collision.isCorrectRect import isCorrectRect # импортируем функцию isCorrectRect для проверки корректности прямоугольника
+from collision.isCorrectRect import isCorrectRect  # импортируем функцию isCorrectRect для проверки корректности прямоугольника
 # определяем пользовательский класс исключений для некорректных прямоугольников
 class RectCorrectError(Exception):
     pass
