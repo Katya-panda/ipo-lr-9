@@ -11,7 +11,7 @@ def intersectionAreaMultiRect(rectangles):
     # перебираем все пары прямоугольников (rect1 и rect2) в списке rectangles
     for i in range(len(rectangles)):
         for j in range(i + 1, len(rectangles)):
-            # lля каждой пары прямоугольников вызываем функцию intersectionAreaRect,чтобы получить площадь их пересечения
+            # для каждой пары прямоугольников вызываем функцию intersectionAreaRect,чтобы получить площадь их пересечения
             total_area += intersectionAreaRect(rectangles[i], rectangles[j])
     # возвращаем общую площадь пересечения всех прямоугольников
     return total_area
